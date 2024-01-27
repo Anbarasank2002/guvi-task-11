@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(95, 150, 119);
+}
+
+.card-body {
+  text-align: center;
+  color: white;
+
+  background-color: rgb(87, 134, 168);
+}
+
+.name {
+  color: white;
+  background-color: black;
+}
+
+.img {
+  height: 180px;
+  width: 300px;
+}
+@media screen and (max-width: 1000px) {
+  .img {
+    height: 50px;
+    width: 60px;
+  }
+}
+
+.btn-weather {
+  border: 0.5px solid rgb(186, 92, 92);
+  color: white;
+  background-color: transparent;
+}
+
+.cards {
+  padding: 13px;
+  background-color: khaki;
+}
